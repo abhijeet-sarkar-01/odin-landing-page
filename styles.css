@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+}
+
+.header{
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.navbar{
+    display: flex;
+    height: 80px;
+    background-color: #1F2937;
+    padding: 1% 10% 1% 10%;
+    justify-content: space-between;
+}
+
+.navbar a{
+    color: azure;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+
+.navbar a:hover{
+    box-shadow: inset 100px 0 0 0 #000608;
+    color: azure;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+}
+
+ul{
+    display: flex;
+    flex: 1;
+    gap: 70px;
+    list-style-type: none;
+}
+
+.content{
+    height: 470px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.leftText h1{
+    color: #e6e6e6;
+    font-family: "Raleway", sans-serif;
+    font-size: 3rem;
+}
+
+.leftText p{
+    color: rgb(173, 173, 173);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+.placeOrder{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border: none;
+    margin-top: 30px;
+    width: 100px;
+    height: 40px;
+    box-shadow: 5px 5px 0 black;
+}
+
+.placeOrder:hover{
+    background-color: rgb(10, 10, 10);
+    box-shadow: 5px 5px 0 white;
+    color: #e6e6e6;
+    transition: 0.3s;
+}
+
+.placeOrder:active{
+    transform: translate(5px, 5px);
+    box-shadow: none;
+    transition: .1s;
+}
+
+.rightImage{
+    filter: drop-shadow(-10px 10px 20px rgb(7, 7, 7));
+    margin: 30px 30px 0 0;
+}
+
+.pc{
+    height: 70%;
+}
