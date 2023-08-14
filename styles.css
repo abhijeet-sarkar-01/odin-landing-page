@@ -128,9 +128,8 @@ body{
 }
 
 .pc-img:hover{
-    box-shadow: 10px 10px 50px black;
-    height: 210px;
-    width: 260px;
+    box-shadow: 5px 5px 15px rgba(41, 41, 41, 0.603);
+    transform: translate(0, -2px);
     transition: 0.2s;
 }
 
